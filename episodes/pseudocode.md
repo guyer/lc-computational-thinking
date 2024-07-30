@@ -1,7 +1,26 @@
 ---
 title: Pseudocode
-nav: Four
+teaching: 30
+exercises: 15
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the purpose and benefits of pseudocode in programming
+- Learn to write pseudocode to break down coding problems
+- Apply pseudocode to explain programming needs to others
+- Recognize how loops and variables function in pseudocode and programming
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What is pseudocode and why is it useful?
+- How can pseudocode help in planning a coding solution?
+- What are loops in programming, and how do they work?
+- How can variables and abstraction be used in coding?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Regardless of programming language, **pseudocode** is a useful tool to break coding problems down. Pseudocode helps you list each step of a planned process so your steps are in a logical order before you code. 
 
@@ -48,6 +67,40 @@ In a folder, we have 250 image files for which we want to create backup copies b
 
 Write some pseudocode of how you might automate this process.
 
+::: solution
+
+## Potential solution
+
+*Steps in the copying process* 
+
+![Steps in the copying loop](fig/pseudo-loop.png){alt="Steps in the loop" width="70%"}
+
+
+### Example code in the Unix shell
+
+```{bash, results="hide"}
+for filename in "*.jpg" "*.tif" "*.png"
+  do
+  cp $filename backup-$filename
+  echo $filename backup-$filename
+done
+```
+
+
+![Coding a loop in the Unix shell](fig/loop-shell.png){alt="Loop as it would be written in the Unix shell" width="90%"}
+
+*Notes*
+
+In the code example above, the loop will run through the folder creating back up copies of all the files with the file extension `.jpg`. As each file is copied, each original filename and the filename of each new file will be printed to the screen. 
+
+Then the loop will restart and repeat the process for all the files with the file extension `.tif`, again printing the original filenames and the filenames of the new files to the screen. 
+
+Then the loop will restart and run through the folder a third time, creating back up copies of all the files with the file extension `.png`, again printing the original filenames and the filenames of the new files to the screen. 
+
+The loop will then stop, as there are no more variables to work on.
+
+:::
+
 :::
 
 ::: challenge
@@ -58,6 +111,23 @@ We have a large folder of files left over from a project that is now finished. T
 
 Write some pseudocode of how you might automate this process.
 
+::: solution
+
+## Potential solution
+
+*Steps in the moving process*
+
+1. Identify the different file types in the folder.
+2. Create new folders to house the different file types.
+3. Create a series of loops to work through the folder, file type by file type, moving the files to the correct folders.
+4. Once the final loop has run, delete all remaining files left within the main folder.
+5. Print filenames to the screen as the loop runs to verify it is working as required.
+
+*Using a shell script to automate the work*
+
+The task above could be fully automated using a shell script. A shell script is a text file containing a sequence of commands for a UNIX-based operating system that allows those commands to be run in one go, rather than by entering each command one at a time. Scripts make task automation possible. The script would contain the commands to do the tasks listed above, such as folder creation, file movement using loops, file deletion and so on. The benefit of shell scripts is that the code they contain can be re-used or adapted for similar tasks.
+
+:::
 :::
 
 ::: challenge
@@ -108,3 +178,12 @@ Why not get it to run every month to tidy up folders that invariably become mess
 
 Or, suppose you use a file naming convention that starts with `YYYY-MM-DD`. Why not run a script annually to sort and organize your documents by year? 
 :::
+
+:::::::::::::::::::::::::::::::::::::::: key points
+
+- Pseudocode is a valuable tool for organizing and planning coding solutions before actual programming.
+- It helps to list each step of a process logically, making it easier to translate into code.
+- Loops allow the execution of repetitive tasks until certain conditions are met.
+- Variables in loops can change with each iteration, demonstrating the concept of abstraction.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::

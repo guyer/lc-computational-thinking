@@ -1,7 +1,26 @@
 ---
 title: Computational thinking in practice
-nav: Two
+teaching: 20
+exercises: 10
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the difference between programming and computational thinking
+- Recognize how computational thinking is applied in everyday life
+- Learn the steps of computational thinking such as problem breakdown, pattern recognition, and developing algorithms
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What is the difference between programming and computational thinking?
+- How is computational thinking used in daily life?
+- What are the steps involved in computational thinking?
+- How can structure diagrams help in breaking down problems?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 While thinking computationally is a prerequisite for programming, programming and computational thinking are not the same thing.
 
@@ -48,3 +67,13 @@ In the hiking scenario, the group of four people have to try to solve the proble
 
 Imagine that night is now falling fast, and our friends are still stuck in the forest. Add some more detail to the structure diagram to help them survive the night.
 :::
+
+:::::::::::::::::::::::::::::::::::::::: key points
+
+- Computational thinking involves breaking down problems, recognizing patterns, and developing algorithms.
+- While programming is instructing a computer to carry out tasks, computational thinking helps decide what those tasks will be.
+- Computational thinking is used in various fields, from project management to epidemiology, and even in daily tasks.
+- Structure diagrams are useful tools for visually breaking down and planning problem-solving steps.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+

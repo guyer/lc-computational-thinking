@@ -1,7 +1,24 @@
 ---
 title: Introduction
-nav: Intro
+teaching: 45
+exercises: 30
 ---
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the concept and importance of computational thinking
+- Learn the four components of computational thinking: decomposition, pattern recognition, algorithms, and abstraction
+- Recognize how computational thinking can be applied to solve complex problems
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What is computational thinking?
+- What are the four components of computational thinking?
+- How can computational thinking help solve complex problems?
+- Why is ethical consideration important in automation and algorithm design?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Computational thinking is an essential prerequisite for anyone wanting to learn to program computers and write code.
 
@@ -40,7 +57,7 @@ There are four essential components of computational thinking:
 - **Algorithms** – developing step-by-step solutions to each part of the problem
 - **Abstraction** – generalising (abstracting) the important detail to make a solution reusable
 
--------
+:::::::::::::::::::::::::::::::::::::::::  callout
 
 Professor Jeannette Wing raised computational thinking as an important issue for researchers in a 2006 paper. She stated, *"Informally, computational thinking describes the mental activity in formulating a problem to admit a computational solution. The solution can be carried out by a human or machine, or more generally, by combinations of humans and machines."* 
 
@@ -48,7 +65,7 @@ Professor Jeannette Wing raised computational thinking as an important issue for
 
 Wing believes that computational thinking is just as important a skill for school children to learn as reading, writing and arithmetic. Increasingly, schools are including computational thinking in school curricula.
 
--------------
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### But first, do no harm ...
 
@@ -76,6 +93,15 @@ This exercise can be useful when you teach Computational Thinking as the introdu
 Our friends in the forest are still in the shouting, blaming and squabbling stage of their predicament, so while they are occupied in **NOT** solving their problem, we will look at computational thinking in a little more detail and examine how we can use each step to solve a maths problem.
 
 -------------
+
+:::::::::::::::::::::::::::::::::::::::: key points
+
+- Computational thinking involves strategies to solve complex problems and can be applied to both humans and computers.
+- The four components of computational thinking are decomposition, pattern recognition, algorithms, and abstraction.
+- Computational thinking is essential for problem-solving in programming and other fields.
+- Ethical considerations and human oversight are crucial in automation to avoid biases and ensure transparency.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### References
 
