@@ -68,7 +68,7 @@ In the hiking scenario, the group of four people have to try to solve the proble
 Imagine that night is now falling fast, and our friends are still stuck in the forest. Add some more detail to the structure diagram to help them survive the night.
 :::
 
-:::::::::::::::::::::::::::::::::::::::: key points
+:::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Computational thinking involves breaking down problems, recognizing patterns, and developing algorithms.
 - While programming is instructing a computer to carry out tasks, computational thinking helps decide what those tasks will be.
