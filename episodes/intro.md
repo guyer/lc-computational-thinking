@@ -94,7 +94,7 @@ Our friends in the forest are still in the shouting, blaming and squabbling stag
 
 -------------
 
-:::::::::::::::::::::::::::::::::::::::: key points
+:::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Computational thinking involves strategies to solve complex problems and can be applied to both humans and computers.
 - The four components of computational thinking are decomposition, pattern recognition, algorithms, and abstraction.
