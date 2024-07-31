@@ -179,7 +179,7 @@ Why not get it to run every month to tidy up folders that invariably become mess
 Or, suppose you use a file naming convention that starts with `YYYY-MM-DD`. Why not run a script annually to sort and organize your documents by year? 
 :::
 
-:::::::::::::::::::::::::::::::::::::::: key points
+:::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Pseudocode is a valuable tool for organizing and planning coding solutions before actual programming.
 - It helps to list each step of a process logically, making it easier to translate into code.
