@@ -56,7 +56,7 @@ Programming rarely works in such a linear fashion. Code generally includes branc
 Our friends have finally made it out of the forest and back to civilisation. Their experience, while unpleasant, has not put them off hiking. Draw a structure diagram of the planning they need to do for next time to avert another disaster.
 :::
 
-:::::::::::::::::::::::::::::::::::::::: key points
+:::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Decomposition is essential for breaking down problems into discrete parts in programming.
 - Computers require precise instructions, and problems must be broken down accordingly.
