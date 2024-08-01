@@ -81,7 +81,9 @@ Use automation, but use it wisely, and ethically, and always with lashings of hu
 The [Jargon Busting exercise](jargon_busting.md) is a helpful way to begin to explore terms, phrases, and ideas related to code and software development.
 
 :::::::::::::::::::::::::::::::::::::::: instructor
-This exercise can be useful when you teach Computational Thinking as the introduction to a full LC workshop, especially if you want learners to have an opportunity to meet each other and interact. It can take anywhere from 10 to 45 minutes, depending on your approach.
+
+This exercise can be useful when you teach Tidy Data as the introduction to a full LC workshop, especially if you want learners to have an opportunity to meet each other and interact. It can take anywhere from 10 to 45 minutes, depending on your approach.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
