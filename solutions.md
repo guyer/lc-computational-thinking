@@ -26,7 +26,7 @@ This is a perfect task for a loop, as the task is simple and repetitive.
 ### Example code in the Unix shell
 
 
-```bash
+``` bash
 for filename in "*.jpg" "*.tif" "*.png"
   do
   cp $filename backup-$filename
