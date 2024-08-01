@@ -1,6 +1,7 @@
 ---
 title: Exercise
-nav: One
+teaching: 25
+exercises: 20
 ---
 
 In this exercise, we will see how computational thinking can be used to add up all the numbers between 1 and 200 in our heads, i.e. `1 + 2 + 3 + 4` and so on. We should be able to do this in less than a minute. 

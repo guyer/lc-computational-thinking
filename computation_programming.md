@@ -1,8 +1,26 @@
 ---
 title: Computational thinking in programming
-nav: Three
- 
+teaching: 30
+exercises: 10
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the importance of decomposition in programming
+- Learn how to break down a problem into discrete parts for programming
+- Recognize the difference between linear and branching code
+- Apply pattern recognition to adapt existing code for new problems
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- Why is decomposition crucial in programming?
+- How can we break down a problem like counting words in a text?
+- What is the difference between linear and branching code?
+- How can pattern recognition help in programming?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 *Decomposition* is crucial in any kind of problem breakdown, but especially so in programming. The computer must be told **precisely** what to do, and in what order, so problems must be broken down into discrete parts and each section coded appropriately.
 
@@ -33,7 +51,16 @@ Programming rarely works in such a linear fashion. Code generally includes branc
 ----------------
 
 :::challenge
-## Practice
+## Hiking Preparation Strategy
 
 Our friends have finally made it out of the forest and back to civilisation. Their experience, while unpleasant, has not put them off hiking. Draw a structure diagram of the planning they need to do for next time to avert another disaster.
 :::
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Decomposition is essential for breaking down problems into discrete parts in programming.
+- Computers require precise instructions, and problems must be broken down accordingly.
+- Linear code runs commands in a sequence, while branching code allows for different pathways based on conditions.
+- Pattern recognition helps programmers adapt existing code for new problems.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
